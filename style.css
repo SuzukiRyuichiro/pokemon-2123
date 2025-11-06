@@ -22,7 +22,7 @@ h1 {
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(min(17ch, 100%), 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(15ch, 100%), 1fr));
   gap: 1rem;
 }
 
@@ -54,6 +54,10 @@ h1 {
 
 .pokemon-card-image {
   width: 100%;
+}
+
+.pokemon-card-title {
+  font-size: larger;
 }
 
 .pokemon-card-link {
