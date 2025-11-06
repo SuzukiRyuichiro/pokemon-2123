@@ -22,7 +22,7 @@ h1 {
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(min(17ch, 100%), 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(15ch, 100%), 1fr));
   gap: 1rem;
 }
 
@@ -43,6 +43,10 @@ h1 {
   color: #000;
   transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out,
     background-position 0.2s ease-in-out, border-color 0.2s ease-in-out;
+}
+
+.pokemon-card h2 {
+  font-size: large;
 }
 .pokemon-card:hover {
   /* 3D rotation animation   */
